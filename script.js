@@ -9,12 +9,7 @@ const ws = wb.Sheets["BE HAPPY"]
 console.log(ws)
 
 
-// const connection = mysql.createConnection({
-//     host: '67.23.238.59',
-//     user: 'behappytabacaria_root',
-//     password: 'n1WM9^I4A{Y{',
-//     database: 'behappytabacaria_hlg'
-// });
+//aqui vai ficar a conexão com o banco
 
 async function runTransaction() {
     try {
